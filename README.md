@@ -15,9 +15,9 @@ investmentAmt | BigDecimal | 2000
 
 ## Rest Endpoints
 
-> **Get** /api/bets
-
 Fetches all the bets
+
+> **Get** /api/bets
 
 Create a bet using the fields
 
