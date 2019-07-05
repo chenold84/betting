@@ -1,7 +1,9 @@
 # betting
 Application to accept bets
+
 ## Introduction
 A spring boot application which exposes rest endpoints to do the create bet, retrieve all bets, generate reports. It uses in-memory h2 database and has spring security enabled. It uses a basic user ID and password authentication
+
 ## Fields
 Field | Data Type | Sample
 ------|-----------|-------
@@ -14,21 +16,26 @@ investmentAmt | BigDecimal | 2000
 ## Rest Endpoints
 
 > **Get** /api/bets
+
 Fetches all the bets
 
-> **Post** /api/bets 
+> **Post** /api/bets
 Create a bet using the fields
 
 > **Get** /api/report/investment/type
+
 Total investment per bet type
 
 > **Get** /api/report/investment/customer
+
 Total investment per Customer ID
 
 > **Get** /api/report/bets/hourly
+
 Total number of bets sold per hour
 
 > **Get** /api/report/bets/type
+
 Total bets sold per bet type
 
 ## Addtional comments
