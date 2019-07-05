@@ -40,7 +40,7 @@ Total bets sold per bet type
 > **Get** /api/report/bets/type
 
 ## Addtional comments
-For the default authentication refer to application.properties
+For the default authentication refer to application.properties. This can be used out of the box for calling the rest API. Bootstrapping has been added, which will load data when the Spring context is loaded. Hence getter methods would return this data.
 ```
 spring.security.user.name=appusr
 spring.security.user.password=5181ad1c-4692-4f2a-8b7b-121536356681
