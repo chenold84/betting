@@ -11,6 +11,26 @@ propNumber | Integer | 1000
 customerId | Integer | 20000
 investmentAmt | BigDecimal | 2000 
 
+## Rest Endpoints
+
+> **Get** /api/bets
+Fetches all the bets
+
+> **Post** /api/bets 
+Create a bet using the fields
+
+> **Get** /api/report/investment/type
+Total investment per bet type
+
+> **Get** /api/report/investment/customer
+Total investment per Customer ID
+
+> **Get** /api/report/bets/hourly
+Total number of bets sold per hour
+
+> **Get** /api/report/bets/type
+Total bets sold per bet type
+
 ## Addtional comments
 For the default authentication refer to application.properties
 ```
