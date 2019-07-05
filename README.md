@@ -19,24 +19,25 @@ investmentAmt | BigDecimal | 2000
 
 Fetches all the bets
 
-> **Post** /api/bets
 Create a bet using the fields
 
-> **Get** /api/report/investment/type
+> **Post** /api/bets
 
 Total investment per bet type
 
-> **Get** /api/report/investment/customer
+> **Get** /api/report/investment/type
 
 Total investment per Customer ID
 
-> **Get** /api/report/bets/hourly
+> **Get** /api/report/investment/customer
 
 Total number of bets sold per hour
 
-> **Get** /api/report/bets/type
+> **Get** /api/report/bets/hourly
 
 Total bets sold per bet type
+
+> **Get** /api/report/bets/type
 
 ## Addtional comments
 For the default authentication refer to application.properties
